@@ -19,20 +19,22 @@ l’idée est de faire mieux , en lien avec votre sujet (bien sûr) que ces deux
 Il est demandé de ne pas utiliser visualcode (on peut l'utiliser en tant qu'editeur, mais pas d'usage des outils terminaux, git , etc ...)
 
 
-## Questions Préparatoires
+## Questions Préparatoires 
 
   1. Expliquer le code suivant  (addition.py):
 ```python
+#Cette fonction prend en arguments deux variables a et b et renvoie leur somme
 def add(x, y):
 
   z=x+y
 
   print('add() executed under the scope: ', __name__)
+  #affiche le nom du module
 
   return z
 
 if __name__ == '__main__':
-
+  #Si l'on se trouve dans le fichier courant alors le programme demande deux nombres, les arrondit à l'entier et affiche le résultat de leur somme.
   x=input('Enter the first number to add: ')
 
   y=input('Enter the second number to add: ')
@@ -47,27 +49,58 @@ Pour chaque question, indiquez vos sites choisis pour reference ( où le prompt 
 
   1. A quoi sert requirments.txt ?
 
-  1. A quoi ressemble un module en python ?
+  Il s'agit de la liste des paquets Python dont l'installation est requise dans un environnement virtuel pour que l'application s'exécute correctement.
+  
+  ( Source https://openclassrooms.com/fr/courses/6951236-mettez-en-place-votre-environnement-python/7014487-gerez-les-environnements-virtuels-a-laide-du-fichier-requirements-txt-+ )
 
-  1. A quoi ressemble un package ?
+  2. A quoi ressemble un module en python ?
 
-  1. Créer un code python utilisant sous forme de module addition.py
+  Un module est un fichier Python. Il peut donc contenir des classes, des fonctions et des variables, qui peuvent être importées depuis un autre fichier.
+  ( Source https://zestedesavoir.com/billets/1842/notes-sur-les-modules-et-packages-en-python/ )
 
-  1. A quoi sert pip ? 
+  3. A quoi ressemble un package ?
+  
+  Un package correspond à un répertoire sur le système de fichier : il a un nom (nom du package), et contient des fichiers (les modules).
+  ( Source https://zestedesavoir.com/billets/1842/notes-sur-les-modules-et-packages-en-python/ )
+  
+  4. Créer un code python utilisant sous forme de module addition.py
 
-  1. A quoi sert PYTHONPATH ?
+```pythondef add(x, y):z=x+yreturn z```
 
-  1. Où sont stockés les paquets installé par pip ?
+  5. A quoi sert pip ?
+  
+  En Python, pip est un système de gestion de paquets utilisé pour installer et gérer des bibliothèques et des modules Python.
+  ( Source  https://packaging.python.org/tutorials/installing-packages/ )
+  
+  6. A quoi sert PYTHONPATH ?
 
-  1. A quoi sert pip install –user ? 
+  PythonPath est une variable d'environnement utilisée par Python pour spécifier un chemin de recherche personnalisé pour les modules Python.
+  (Source https://docs.python.org/3/library/sys.html)
+  
+  7. Où sont stockés les paquets installé par pip ?
 
-  1. A quoi sert venv ? 
+     Les packages installés par le système sont dans /usr/lib/pythonX. Y/ et /usr/lib/pythonX. Y/dist-packages
+     (Source https://docs.python.org/3/tutorial/modules.html#the-module-search-path)
+  
+  8. A quoi sert pip install –user ?
 
-  1. Comment utiliser venv ?
+     Permet d'installer des packages Python uniquement pour l'utilisateur courant, plutôt que pour l'ensemble du système.
 
-  1. A quoi sert docker ?
+     (Source https://pip.pypa.io/en/stable/user_guide/#user-installs)
+  
+  9. A quoi sert venv ?
 
-  1. Comment utiliser docker ?
+     C'est un module Python intégré qui permet de créer des environnements virtuels isolés pour les projets Python.
+     (Source  https://docs.python.org/3/library/venv.html)
+
+  10. Comment utiliser venv ?
+  '''python
+    python -m venv myenv
+    tutorial-env\Scripts\activate'''
+  
+  13. A quoi sert docker ?
+
+  14. Comment utiliser docker ?
 
 ## Exercice 0
 
