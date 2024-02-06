@@ -49,23 +49,22 @@ Pour chaque question, indiquez vos sites choisis pour reference ( où le prompt 
 
   1. A quoi sert requirments.txt ?
 
-  Il s'agit de la liste des paquets Python dont l'installation est requise dans un environnement virtuel pour que l'application s'exécute correctement.
-  
-  ( Source https://openclassrooms.com/fr/courses/6951236-mettez-en-place-votre-environnement-python/7014487-gerez-les-environnements-virtuels-a-laide-du-fichier-requirements-txt-+ )
+    Il s'agit de la liste des paquets Python dont l'installation est requise dans un environnement virtuel pour que l'application s'exécute correctement.
+    ( Source https://openclassrooms.com/fr/courses/6951236-mettez-en-place-votre-environnement-python/7014487-gerez-les-environnements-virtuels-a-laide-du-fichier-requirements-txt-+ )
 
   2. A quoi ressemble un module en python ?
 
-  Un module est un fichier Python. Il peut donc contenir des classes, des fonctions et des variables, qui peuvent être importées depuis un autre fichier.
-  ( Source https://zestedesavoir.com/billets/1842/notes-sur-les-modules-et-packages-en-python/ )
+    Un module est un fichier Python. Il peut donc contenir des classes, des fonctions et des variables, qui peuvent être importées depuis un autre fichier.
+    ( Source https://zestedesavoir.com/billets/1842/notes-sur-les-modules-et-packages-en-python/ )
 
   3. A quoi ressemble un package ?
   
-  Un package correspond à un répertoire sur le système de fichier : il a un nom (nom du package), et contient des fichiers (les modules).
-  ( Source https://zestedesavoir.com/billets/1842/notes-sur-les-modules-et-packages-en-python/ )
+    Un package correspond à un répertoire sur le système de fichier : il a un nom (nom du package), et contient des fichiers (les modules).
+    ( Source https://zestedesavoir.com/billets/1842/notes-sur-les-modules-et-packages-en-python/ )
   
   4. Créer un code python utilisant sous forme de module addition.py
 
-```python
+    ```python
 def add(x, y):
 z=x+y
 return z
@@ -73,13 +72,13 @@ return z
 
   5. A quoi sert pip ?
   
-  En Python, pip est un système de gestion de paquets utilisé pour installer et gérer des bibliothèques et des modules Python.
-  ( Source  https://packaging.python.org/tutorials/installing-packages/ )
+    En Python, pip est un système de gestion de paquets utilisé pour installer et gérer des bibliothèques et des modules Python.
+    ( Source  https://packaging.python.org/tutorials/installing-packages/ )
   
   6. A quoi sert PYTHONPATH ?
 
-  PythonPath est une variable d'environnement utilisée par Python pour spécifier un chemin de recherche personnalisé pour les modules Python.
-  (Source https://docs.python.org/3/library/sys.html)
+    PythonPath est une variable d'environnement utilisée par Python pour spécifier un chemin de recherche personnalisé pour les modules Python.
+    (Source https://docs.python.org/3/library/sys.html)
   
   7. Où sont stockés les paquets installé par pip ?
 
@@ -89,8 +88,7 @@ return z
   8. A quoi sert pip install –user ?
 
      Permet d'installer des packages Python uniquement pour l'utilisateur courant, plutôt que pour l'ensemble du système.
-
-     (Source https://pip.pypa.io/en/stable/user_guide/#user-installs)
+    (Source https://pip.pypa.io/en/stable/user_guide/#user-installs)
   
   9. A quoi sert venv ?
 
@@ -98,10 +96,10 @@ return z
      (Source  https://docs.python.org/3/library/venv.html)
 
   10. Comment utiliser venv ?
-  '''python
+  ```python
     python -m venv myenv
     tutorial-env\Scripts\activate
-'''
+```
   
   13. A quoi sert docker ?
 
