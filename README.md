@@ -65,7 +65,11 @@ Pour chaque question, indiquez vos sites choisis pour reference ( où le prompt 
   
   4. Créer un code python utilisant sous forme de module addition.py
 
-```pythondef add(x, y):z=x+yreturn z```
+```python
+def add(x, y):
+z=x+y
+return z
+```
 
   5. A quoi sert pip ?
   
@@ -96,7 +100,8 @@ Pour chaque question, indiquez vos sites choisis pour reference ( où le prompt 
   10. Comment utiliser venv ?
   '''python
     python -m venv myenv
-    tutorial-env\Scripts\activate'''
+    tutorial-env\Scripts\activate
+'''
   
   13. A quoi sert docker ?
 
