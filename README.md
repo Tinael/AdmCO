@@ -19,7 +19,7 @@ l’idée est de faire mieux , en lien avec votre sujet (bien sûr) que ces deux
 Il est demandé de ne pas utiliser visualcode (on peut l'utiliser en tant qu'editeur, mais pas d'usage des outils terminaux, git , etc ...)
 
 
-## Questions Préparatoires 
+## Questions Préparatoires test
 
   1. Expliquer le code suivant  (addition.py):
 ```python
