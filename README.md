@@ -101,10 +101,14 @@ return z
     tutorial-env\Scripts\activate
 ```
   
-  13. A quoi sert docker ?
-  ma giga beuteu
+  11. A quoi sert docker ?
+      
+  Docker est une plateforme open-source qui permet de créer, déployer et exécuter des applications dans des conteneurs logiciels.
+  (Source https://www.docker.com/resources/what-container)
 
-  14. Comment utiliser docker ?
+  12. Comment utiliser docker ?
+
+  
 
 ## Exercice 0
 
