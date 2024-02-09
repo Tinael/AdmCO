@@ -146,7 +146,7 @@ Creer une classe SimpleComplexCalculator proposant vos 4 méthodes
 
 Tester votre classe dans le même fichier
 
-Lien gitlab :
+Lien gitlab : https://gitlab.com/robotique4/exercice-2.git
 
 
 ## Exercice 3
