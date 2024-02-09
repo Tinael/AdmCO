@@ -146,6 +146,7 @@ Creer une classe SimpleComplexCalculator proposant vos 4 méthodes
 
 Tester votre classe dans le même fichier
 
+Lien gitlab :
 
 
 ## Exercice 3
@@ -154,7 +155,7 @@ Jeter un coup d’oeil sur les règles de codage en python (pep8,pep20), expliqu
 
 (utiliser par exemple  pylint et black)
 
-
+Lien gitlab :
 
 ## Exercice 4
 
@@ -164,7 +165,7 @@ Creer un package test contenant votre code de test de ce package/classe
 
 Faites vos Commentaire sous forme de docstring, associé en particulier aux différentes méthodes
 
-
+Lien gitlab :
 
 ## Exercice 5
 
@@ -174,7 +175,7 @@ Tester dans vos méthodes de calcul que les entrées sont biens des entiers (ave
 
 Tester le bon fonctionnement de ces améliorations
 
-
+Lien gitlab :
 
 ## Exercice 6
 
@@ -190,9 +191,7 @@ En utilisant le système de gestion des logs (**import logging**)
 
 Compléter vos classes de logs à la fois dans le cas où tout se passe bien et en cas de problème
 
-
-
-
+Lien gitlab :
 
 ## Exercice 8
 
