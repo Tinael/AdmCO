@@ -135,6 +135,7 @@ On représentera les complexes par un tuple à 2 élements réels [4.67,5.89]. C
 
 Tester vos fonctions dans le même fichier
 
+Lien gitlab : https://gitlab.com/robotique4/project-1.git
 
 
 ## Exercice 2
