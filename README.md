@@ -155,7 +155,7 @@ Jeter un coup d’oeil sur les règles de codage en python (pep8,pep20), expliqu
 
 (utiliser par exemple  pylint et black)
 
-Lien gitlab :
+Lien gitlab : https://gitlab.com/robotique4/exercice-3.git
 
 ## Exercice 4
 
