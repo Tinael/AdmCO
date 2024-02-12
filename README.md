@@ -194,7 +194,7 @@ En utilisant le système de gestion des logs (**import logging**)
 
 Compléter vos classes de logs à la fois dans le cas où tout se passe bien et en cas de problème
 
-Lien gitlab :
+Lien gitlab : https://gitlab.com/robotique4/exercice-7.git
 
 ## Exercice 8
 
@@ -202,7 +202,7 @@ Distribution de votre code. Creation d’une version zippé de votre projet.
 
 Comment gérer de ne distribuer qu'une partie. Voir en particulier pour ne distribuer que la partie fonctionnelle , pas la partie test .
 
-
+Lien gitlab : https://gitlab.com/robotique4/exercice-8.git
 
 
 ## Exercice 9
