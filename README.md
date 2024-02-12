@@ -107,8 +107,11 @@ return z
   (Source https://www.docker.com/resources/what-container)
 
   12. Comment utiliser docker ?
-
-  
+  ```python
+    docker build -t nom_image
+    docker run -d -p 8080:80 nom_image
+    docker stop id_conteneur
+```
 
 ## Exercice 0
 
@@ -165,7 +168,7 @@ Creer un package test contenant votre code de test de ce package/classe
 
 Faites vos Commentaire sous forme de docstring, associé en particulier aux différentes méthodes
 
-Lien gitlab :
+Lien gitlab : https://gitlab.com/robotique4/exercice-4.git
 
 ## Exercice 5
 
@@ -175,7 +178,7 @@ Tester dans vos méthodes de calcul que les entrées sont biens des entiers (ave
 
 Tester le bon fonctionnement de ces améliorations
 
-Lien gitlab :
+Lien gitlab : https://gitlab.com/robotique4/exercice-5.git
 
 ## Exercice 6
 
@@ -183,7 +186,7 @@ En utilisant unitest (**import** unittest)
 
 dans votre classe test, mettre en place un ensemble de tests sur votre classe de calcul
 
-
+Lien gitlab : https://gitlab.com/robotique4/exercice-6.git
 
 ## Exercice 7
 
